@@ -1,7 +1,7 @@
 /obj/item/clothing/under/f13
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0) //Base type has no armor as well
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
-	fitted = FEMALE_UNIFORM_FULL
+	fitted = NO_FEMALE_UNIFORM
 	can_adjust = FALSE
 	resistance_flags = NONE
 	has_sensor = NO_SENSORS //kek
@@ -677,9 +677,9 @@
 /obj/item/clothing/under/f13/exile/tribal
 	name = "disheveled loincloth"
 	desc = "Fine handcrafted tribal clothing, now torn and faded. A simple lointcloth that comes with a piece of cloth to cover the chest with as well."
-	icon = 'icons/fallout/clothing/uniforms.dmi'
+	icon = 'icons/fallout/objects/clothing/uniforms.dmi'
 	icon_state = "clothing_tribalout"
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothing/uniform.dmi'
 	item_state = "clothing_tribalout"
 	can_adjust = TRUE
 
@@ -1280,13 +1280,6 @@
 	icon_state = "bos_bodysuit"
 	item_state = "bos_bodysuit"
 
-/obj/item/clothing/under/f13/bos/f/bodysuit
-	name = "Brotherhood bodysuit"
-	desc = "A bodysuit worn by members of the Brotherhood of steel."
-	icon_state = "bos_bodysuit_f"
-	item_state = "bos_bodysuit_f"
-	body_parts_covered = CHEST
-
 /obj/item/clothing/under/f13/bos/bodysuit/knight
 	name = "Brotherhood Knight bodysuit"
 	desc = "A bodysuit worn by the Knights of the Brotherhood of steel."
@@ -1317,32 +1310,12 @@
 	icon_state = "bos_bodysuit_grey"
 	item_state = "bos_bodysuit_grey"
 
-/obj/item/clothing/under/f13/bos/f/bodysuit/paladin
-	name = "Brotherhood Scribe bodysuit"
-	desc = "A bodysuit worn by the Paladins of the Brotherhood of steel."
-	icon_state = "bos_bodysuit_grey_f"
-	item_state = "bos_bodysuit_grey_f"
-
-/obj/item/clothing/under/f13/bosform_f
-	name = "female initiate service uniform"
-	desc = "A dry-cleaned and fitted formal uniform of the Brotherhood of Steel, for special occasions. This one has no markings, and looks to be for a feminine person."
-	icon_state = "bosform_f"
-	item_state = "bosform_f"
-	item_color = "bosform_f"
-
 /obj/item/clothing/under/f13/bosform_m
 	name = "male initiate service uniform"
 	desc = "A dry-cleaned and fitted formal uniform of the Brotherhood of Steel, for special occasions. This one has no markings, and looks to be for a masculine person."
 	icon_state = "bosform_m"
 	item_state = "bosform_m"
 	item_color = "bosform_m"
-
-/obj/item/clothing/under/f13/bosformsilver_f
-	name = "female brotherhood service uniform"
-	desc = "A dry-cleaned and fitted formal uniform of the Brotherhood of Steel, for special occasions. This one bears a silver chain, and looks to be for a feminine person."
-	icon_state = "bosformsilver_f"
-	item_state = "bosformsilver_f"
-	item_color = "bosformsilver_f"
 
 /obj/item/clothing/under/f13/bosformsilver_m
 	name = "male brotherhood service uniform"
@@ -1351,12 +1324,6 @@
 	item_state = "bosformsilver_m"
 	item_color = "bosformsilver_m"
 
-/obj/item/clothing/under/f13/bosformgold_f
-	name = "female ranking service uniform"
-	desc = "A dry-cleaned and fitted formal uniform of the Brotherhood of Steel, for special occasions. This one bears a gold chain; denoting authority, and looks to be for a feminine person."
-	icon_state = "bosformgold_f"
-	item_state = "bosformgold_f"
-	item_color = "bosformgold_f"
 
 /obj/item/clothing/under/f13/bosformgold_m
 	name = "male ranking service uniform"
